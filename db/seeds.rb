@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#require 'faker'
+
+20.times do
+    Coupon.create(coupon_code: Faker::Business.credit_card_number, store: Faker::Company.name)
+end
+
+#rails generate model Coupon coupon_code:string store:string
