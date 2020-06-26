@@ -52,3 +52,13 @@ The application you will be building is a Coupon app. Below is a high-level over
 * [Reading on Form Integration](https://github.com/learn-co-curriculum/rails-form_tag-readme)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/rails-index-show-new-create-lab' title='Index, Show, New, Create Lab'>Index, Show, New, Create Lab</a> on Learn.co and start learning to code for free.</p>
+
+
+coupons
+  -coupon_code:string
+  -store:string
+
+index
+show
+new
+create
